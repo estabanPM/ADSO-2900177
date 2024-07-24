@@ -1,0 +1,59 @@
+<!--realizar un diagrama que calcule la edad de 3 personas 
+e imprimir si cada persona es mayor o menor de edad, tambine
+calcular e imprimir el promedio de las edades y mostrar si es de mayores o menores de edad-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de 3 Personas</title>
+</head>
+<body>
+    <script>
+        let edad1;
+        let edad2;
+        let edad3;
+        let ano1;
+        let ano2;
+        let ano3;
+        let promedio;
+
+        ano1= 2002;
+        ano2=2008;
+        ano3=2014;
+        edad1= 2024-ano1;
+        edad2= 2024-ano2;
+        edad3= 2024-ano3;
+        promedio= (edad1+edad2+edad3)/3;
+
+        if(edad1>17){
+            console.log("la primera persona es mayor de edad con "+edad1+" años");
+        }
+        else{
+            console.log("la primera persona es menor de edad con "+edad1+" años");
+        }
+
+        if(edad2>17){
+            console.log("la segunda persona es mayor de edad con "+edad2+" años");
+        }
+        else{
+            console.log("la segunda persona es menor de edad con "+edad2+" años");
+        }
+
+        if(edad3>17){
+            console.log("la tercera persona es mayor de edad con "+edad3+" años");
+        }
+        else{
+            console.log("la tercera persona es menor de edad con "+edad3+" años");
+        }
+
+        if(promedio>17){
+            console.log("el promedio de las edades son mayores de edad con "+promedio+" años");
+        }
+        else{
+            console.log("el promedio de las edades son menores de edad con "+promedio+" años");
+        }
+
+    </script>
+</body>
+</html>

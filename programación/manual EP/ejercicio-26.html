@@ -1,0 +1,42 @@
+<!--tabla del 1 al 5 hasta el 5 e imprimir los pares e impares con ciclo while.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas del 1 al 5 con ciclo while</title>
+</head>
+<body>
+    <script>
+        let contador;
+        let tabla;
+        let multiplicar;
+        let par;
+        let impar;
+        let resultado;
+        
+        contador=1;
+        tabla=5;
+        par=0;
+        impar=0;
+
+        while(contador<=tabla){
+            multiplicar=1;
+            while(multiplicar<=5){
+                resultado= contador*multiplicar;
+                if(resultado%2==0){
+                    par=par+1;
+                    console.log(contador+" x "+multiplicar+" = "+resultado+" Buzz.");
+                }else{
+                    impar=impar+1;
+                    console.log(contador+" x "+multiplicar+" = "+resultado+" Bass.");
+                }
+                multiplicar=multiplicar+1;
+            }
+            contador=contador+1;
+        }
+            console.log("la cantidad de pares es: "+par);
+            console.log("la cantidad de impares es: "+impar);
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!--realizar un programa que calcule el pago de un empleado teniendo en cuanta unos factores-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo Final de Empledo</title>
+</head>
+<body>
+    <script>
+        let sueldo;
+        let salarioMinimo;
+        let salud;
+        let pension;
+        let arl;
+        let transporte;
+        let retencion;
+        let valorDia;
+        let diasTabajados;
+        let sueldoTotal;
+        let deducibles;
+
+        salarioMinimo= 1300000;
+        valorDia= 190000;
+        diasTabajados= 30;
+        sueldo= valorDia*diasTabajados;
+        salud= sueldo*0.12;
+        pension= sueldo*0.16;
+        arl= sueldo*0.052;
+
+        if(sueldo<=salarioMinimo){
+            transporte= 114000;
+        }else{
+            transporte= 0;
+        }
+
+        if(sueldo>=salarioMinimo*4){
+            retencion= sueldo*0.04;
+        }else{
+            retencion= 0;
+        }
+
+        deducibles= salud+pension+arl;
+        sueldoTotal= (sueldo+transporte)-(retencion+deducibles)
+
+        console.log("el sueldo inicial del trabajador  es de: $"+sueldo);
+        console.log("el sudcidio de transporte que le corresponde es de: $"+transporte);
+        console.log("el monto que se le descontó por salud fue: $"+salud);
+        console.log("el monto que se le descontó por pensión fue: $"+pension);
+        console.log("el ARL fue de: $"+arl);
+        console.log("la retención del sueldo es de: $"+retencion);
+        console.log("el sueldo total del empleado es de: $"+sueldoTotal);
+
+
+
+    </script>
+</body>
+</html>

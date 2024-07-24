@@ -1,0 +1,28 @@
+<!--tabla del 9 con el ciclo for y mostrar cual es par e impar-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla del 9 con par e impar</title>
+</head>
+<body>
+    <script>
+        let numero;
+        let contador;
+        let multiplicar;
+
+        numero= 9;
+        multiplicar= 0;
+
+        for(contador=1;contador<=5;contador++){
+            multiplicar=numero*contador
+            if(multiplicar%2==0){
+                console.log(numero+" x "+contador+" = "+multiplicar+" es par.");
+            }else{
+                console.log(numero+" x "+contador+" = "+multiplicar+" es impar.");
+            }
+        }
+    </script>
+</body>
+</html>

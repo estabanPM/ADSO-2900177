@@ -1,0 +1,42 @@
+<!--calcular el porcentaje de 3 notas e imprimir si es una buna o mala nota-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porcentaje de 3 notas</title>
+</head>
+<body>
+    <script>
+        let nota1;
+        let nota2;
+        let nota3;
+        let porcentaje1;
+        let porcentaje2;
+        let porcentaje3;
+        let sumaPorcentaje;
+
+        nota1= 3.5
+        nota2= 4.8
+        nota3= 5.0
+        porcentaje1= nota1*0.21;
+        porcentaje2= nota2*0.35;
+        porcentaje3= nota3*0.45;
+        sumaPorcentaje= porcentaje1+porcentaje2+porcentaje3;
+
+        if(sumaPorcentaje>4.5){
+            console.log(sumaPorcentaje+" es una exelente nota.");
+        }else{
+            if(sumaPorcentaje<=4.5 & sumaPorcentaje>=3.5){
+                console.log(sumaPorcentaje+" es una buena nota.");
+            }else{
+                if(sumaPorcentaje<=3.5 & sumaPorcentaje>=3.0){
+                    console.log(sumaPorcentaje+" es una nota mediocre.");
+                }else{
+                    console.log(sumaPorcentaje+" es una mala nota.");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

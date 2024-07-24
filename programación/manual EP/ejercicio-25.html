@@ -1,0 +1,38 @@
+<!--tabla del 1 al 5 hasta el 5 e imprimir los pares e impares con ciclo For.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas del 1 al 5 con For</title>
+</head>
+<body>
+    <script>
+        let contador;
+        let tabla;
+        let multiplicar;
+        let par;
+        let impar;
+        let resultado;
+
+        tabla=5;
+        par=0;
+        impar=0;
+
+        for(contador=1;contador<=tabla;contador++){
+            for(multiplicar=1;multiplicar<=5;multiplicar++){
+                resultado= contador*multiplicar;
+                if(resultado%2==0){
+                    par=par+1;
+                    console.log(contador+" x "+multiplicar+" = "+resultado+" Buzz.");
+                }else{
+                    impar=impar+1;
+                    console.log(contador+" x "+multiplicar+" = "+resultado+" Bass.");
+                }
+            }
+        }
+            console.log("la cantidad de pares es: "+par);
+            console.log("la cantidad de impares es: "+impar);
+    </script>
+</body>
+</html>

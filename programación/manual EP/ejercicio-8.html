@@ -1,0 +1,34 @@
+<!--imprimir el sueldo final de un empleado-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo de un Empleado</title>
+</head>
+<body>
+    <script>
+        let vt;
+        let vd;
+        let pt;
+        let s1;
+        let s2;
+        let s3;
+        let dt;
+        let p;
+        let arl;
+
+        s3= 1300000;
+        dt= 30;
+        vd= 40000;
+        s1= dt*vd;
+        s2= s3*(12/100);
+        p= s3*(12/100);
+        arl= s3*(5.2/100);
+        pt= s2+p+arl;
+        vt= s1-pt;
+
+        console.log("el sueldo del trabajador es: "+vt);
+    </script>
+</body>
+</html>

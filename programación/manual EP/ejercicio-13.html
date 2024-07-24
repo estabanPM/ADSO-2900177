@@ -1,0 +1,43 @@
+<!--calcular el area de 3 cuadrados e imprimir el area mayor-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Mayor</title>
+</head>
+<body>
+    <script>
+        let cuadrado1;
+        let cuadrado2;
+        let cuadrado3;
+        let lado1;
+        let lado2;
+        let lado3;
+
+        lado1= 4;
+        lado2= 8;
+        lado3= 2;
+        cuadrado1= lado1*lado1;
+        cuadrado2= lado2*lado2;
+        cuadrado3= lado3*lado3;
+
+        if(cuadrado1==cuadrado2&cuadrado1==cuadrado3&cuadrado2==cuadrado3){
+            console.log("las areas de los tres cuadrados son iguales: "+cuadrado1)
+        }
+        else{
+            if(cuadrado1>cuadrado2&cuadrado1>cuadrado3){
+                console.log("el area mayor es la del primer cuadrado que es = "+cuadrado1);
+            }
+            else{
+                if(cuadrado2>cuadrado1&cuadrado2>cuadrado3){
+                    console.log("el area mayor es la del segundo cuadrado que es = "+cuadrado2);
+                }
+                else{
+                    console.log("el area mayor es la del tercer cuadrado que es = "+cuadrado3);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
