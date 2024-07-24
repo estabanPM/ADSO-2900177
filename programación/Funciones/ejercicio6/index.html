@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porcentaje de 3 notas</title>
+    <script src="JS/funcion.js"></script>
+</head>
+<body>
+    <script>
+        let pornota1= porNota(5.0,0.3);
+        let pornota2= porNota(4.0,0.3);
+        let pornota3= porNota(2.0,0.4);
+        let suma= (pornota1+pornota2+pornota3);
+
+        let porNota1Exp= porNotaExp(4.2,0.3)
+        let porNota2Exp= porNotaExp(3.3,0.3)
+        let porNota3Exp= porNotaExp(2.6,0.4)
+        let sumaExp= (porNota1Exp+porNota2Exp+porNota3Exp);
+
+        console.log("CON PARAMETROS")
+        console.log("El porcentaje de la nota 1 es : "+pornota1);
+        console.log("El porcentaje de la nota 2 es : "+pornota2);
+        console.log("El porcentaje de la nota 3 es : "+pornota3);
+        console.log("La suma del porcentaje de las notas es: "+suma);
+        console.log("\nCON EXPRESIÓN")
+        console.log("El porcentaje de la nota 1 con expresión es : "+porNota1Exp);
+        console.log("El porcentaje de la nota 2 con expresión es : "+porNota2Exp);
+        console.log("El porcentaje de la nota 3 con expresión es : "+porNota3Exp);
+        console.log("La suma del porcentaje de las notas es: "+sumaExp);
+
+
+    </script>
+</body>
+</html>

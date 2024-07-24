@@ -1,0 +1,31 @@
+<!--imprimir el sueldo final de un empleado-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo de un Empleado</title>
+    <script src="js/funcion.js"></script>
+</head>
+<body>
+    <script>
+        let pdiasT = 30;
+        let pvalorD = 200000;
+
+        console.log("CON PARAMETROS")
+        console.log("El sueldo inicial de la presona es: "+sueldo(pdiasT,pvalorD))
+        console.log("Se le descuenta la pensión que es: "+pension(pdiasT,pvalorD))
+        console.log("Se le descuenta la salud que es: "+salud(pdiasT,pvalorD))
+        console.log("Se le descuenta el ARL que es: "+arl(pdiasT,pvalorD))
+        console.log("El sueldo total de la persona termina siendo de: "+sueldoTotal(pdiasT,pvalorD))
+
+        console.log("\n CON EXPRESIÓN")
+        console.log("El sueldo inicial de la presona es: "+sueldoExp(pdiasT,pvalorD))
+        console.log("Se le descuenta la pensión que es: "+pensionExp(pdiasT,pvalorD))
+        console.log("Se le descuenta la salud que es: "+saludExp(pdiasT,pvalorD))
+        console.log("Se le descuenta el ARL que es: "+arlExp(pdiasT,pvalorD))
+        console.log("El sueldo total de la persona termina siendo de: "+sueldoTotalExp(pdiasT,pvalorD))
+
+    </script>
+</body>
+</html>

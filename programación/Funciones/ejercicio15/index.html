@@ -1,0 +1,36 @@
+<!--realizar un programa que calcule el pago de un empleado teniendo en cuanta unos factores-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo De Empleado</title>
+    <script src="js/funcion.js"></script>
+</head>
+<body>
+    <script>
+        let pdiasT = 30;
+        let pvalorD = 200000;
+        let psalarioM = 1300000;
+        //con parametro
+        console.log("CON PARAMETROS")
+        console.log("el sueldo inicial del trabajador  es de: $"+sueldo(pdiasT,pvalorD));
+        console.log("el monto que se le descontó por salud fue: $"+salud(pdiasT,pvalorD));
+        console.log("el monto que se le descontó por pensión fue: $"+pension(pdiasT,pvalorD));
+        console.log("el ARL fue de: $"+arl(pdiasT,pvalorD));
+        console.log("el sudcidio de transporte que le corresponde es de: $"+transporte(pdiasT,pvalorD,psalarioM));
+        console.log("la retención del sueldo es de: $"+retencion(pdiasT,pvalorD,psalarioM));
+        console.log("el sueldo total del empleado es de: $"+sueldoTotal(pdiasT,pvalorD,psalarioM));
+
+        //con expresión
+        console.log("\nCON EXPRESIÓN")
+        console.log("el sueldo inicial del trabajador  es de: $"+sueldoExp(pdiasT,pvalorD));
+        console.log("el monto que se le descontó por salud fue: $"+saludExp(pdiasT,pvalorD));
+        console.log("el monto que se le descontó por pensión fue: $"+pensionExp(pdiasT,pvalorD));
+        console.log("el ARL fue de: $"+arl(pdiasT,pvalorD));
+        console.log("el sudcidio de transporte que le corresponde es de: $"+transporteExp(pdiasT,pvalorD,psalarioM));
+        console.log("la retención del sueldo es de: $"+retencionExp(pdiasT,pvalorD,psalarioM));
+        console.log("el sueldo total del empleado es de: $"+sueldoTotalExp(pdiasT,pvalorD,psalarioM));
+    </script>
+</body>
+</html>
