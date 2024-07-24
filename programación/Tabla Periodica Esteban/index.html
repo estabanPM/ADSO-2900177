@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periodica</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!-- fondo del HTML -->
+    <style>
+        body {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/fondo3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="principal" class="col-12">
+            <!-- titulo -->
+        <div class="periodo col-12 row">
+            <div class="col-4 row periodo-dividido">
+                <div class="celda col-2">
+                    <div class="numero-periodo">1 I A</div>
+                </div>
+            </div>
+            <div class="col-4 row periodo-dividido titulo">TABLA PERIÓDICA</div>
+            <div class="col-4 row periodo-dividido">
+                <div class="celda col-10"></div>
+                <div class="celda col-2">
+                    <div class="numero-periodo">18 VIII A</div>
+                </div>
+            </div>
+        </div>
+        <!-- periodo1 -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#hidrogeno">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">1</div>
+                            <div class="recuadro simbolo">H</div>
+                            <div class="recuadro nombre-elemento">Hidrogeno</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="numero-periodo">2 II A</div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="col-6">
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-alcalinos"></div>
+                            <div class="nombre-clasifiacion">Metales Alcalinos</div>
+                        </div>
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-alcalinotérreos"></div>
+                            <div class="nombre-clasifiacion">alcalinotérreos</div>
+                        </div>
+                        <div class="recuadro-prueba">
+                            <div class="cuadro-prueba color-otros"></div>
+                            <div class="nombre-clasifiacion">otros metales</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-transicion"></div>
+                            <div class="nombre-clasifiacion">metales de transición</div>
+                        </div>
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-metaloides"></div>
+                            <div class="nombre-clasifiacion">Metaloides</div>
+                        </div>
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-actínidos"></div>
+                            <div class="nombre-clasifiacion">actínidos</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2"><div class="numero-periodo">13 III A</div></div>
+                    <div class="celda col-2"><div class="numero-periodo">14 IV A</div></div>
+                    <div class="celda col-2"><div class="numero-periodo">15 V A</div></div>
+                    <div class="celda col-2"><div class="numero-periodo">16 VI A</div></div>
+                    <div class="celda col-2"><div class="numero-periodo">17 VII A</div></div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#helio">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">2</div>
+                            <div class="recuadro simbolo">He</div>
+                            <div class="recuadro nombre-elemento">Helio</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- periodo2 -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2 " data-bs-toggle="modal" data-bs-target="#litio">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">3</div>
+                            <div class="recuadro simbolo">Li</div>
+                            <div class="recuadro nombre-elemento">Litio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#berilio">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">4</div>
+                            <div class="recuadro simbolo">Be</div>
+                            <div class="recuadro nombre-elemento">Berilio</div>
+                        </div>
+                    </div>
+                    <div class="col-8"></div>
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="col-6">
+                        <div class="recuadro-prueba ">
+                            <div class="cuadro-prueba color-Lantánidos"></div>
+                            <div class="nombre-clasifiacion">Lantánidos</div>
+                        </div>
+                        <div class="recuadro-prueba">
+                            <div class="cuadro-prueba color-nometales"></div>
+                            <div class="nombre-clasifiacion">No Metales</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="recuadro-prueba">
+                            <div class="cuadro-prueba color-halógenos"></div>
+                            <div class="nombre-clasifiacion">halógenos</div>
+                        </div>
+                        <div class="recuadro-prueba">
+                            <div class="cuadro-prueba color-nombles"></div>
+                                <div class="nombre-clasifiacion">Gases nobles</div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#boro">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">5</div>
+                            <div class="recuadro simbolo">B</div>
+                            <div class="recuadro nombre-elemento">Boro</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#carbono">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">6</div>
+                            <div class="recuadro simbolo">C</div>
+                            <div class="recuadro nombre-elemento">Carbono</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#nitrogeno">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">7</div>
+                            <div class="recuadro simbolo">N</div>
+                            <div class="recuadro nombre-elemento">Nitrógeno</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#oxigeno">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">8</div>
+                            <div class="recuadro simbolo">O</div>
+                            <div class="recuadro nombre-elemento">Oxigeno</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#fluor">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">9</div>
+                            <div class="recuadro simbolo">F</div>
+                            <div class="recuadro nombre-elemento">Flúor</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#neon">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">10</div>
+                            <div class="recuadro simbolo">Ne</div>
+                            <div class="recuadro nombre-elemento">Neón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- periodo3 -->  
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">11</div>
+                            <div class="recuadro simbolo">Na</div>
+                            <div class="recuadro nombre-elemento">Sodio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">12</div>
+                            <div class="recuadro simbolo">Mg</div>
+                            <div class="recuadro nombre-elemento">Magnesio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2"><div class="numero-periodo"> 3 III B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 4 IV B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 5 V B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 6 VI B</div></div>
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2"><div class="numero-periodo"> 7 VII B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 8 VIII B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 9 VIII B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 10 VIII B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 11 I B</div></div>
+                    <div class="celda col-2"><div class="numero-periodo"> 12 II B</div></div>
+
+                </div>
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">13</div>
+                            <div class="recuadro simbolo">Al</div>
+                            <div class="recuadro nombre-elemento">Aluminio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">14</div>
+                            <div class="recuadro simbolo">Si</div>
+                            <div class="recuadro nombre-elemento">Silicio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">15</div>
+                            <div class="recuadro simbolo">P</div>
+                            <div class="recuadro nombre-elemento">Fósforo</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">16</div>
+                            <div class="recuadro simbolo">Z</div>
+                            <div class="recuadro nombre-elemento">Azufre</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">17</div>
+                            <div class="recuadro simbolo">Cl</div>
+                            <div class="recuadro nombre-elemento">Cloro</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">18</div>
+                            <div class="recuadro simbolo">Ar</div>
+                            <div class="recuadro nombre-elemento">Argón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--periodo4  -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">19</div>
+                            <div class="recuadro simbolo">K</div>
+                            <div class="recuadro nombre-elemento">Potasio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">20</div>
+                            <div class="recuadro simbolo">Ca</div>
+                            <div class="recuadro nombre-elemento">Calcio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion ">
+                            <div class="recuadro numero-atomico">21</div>
+                            <div class="recuadro simbolo">Sc</div>
+                            <div class="recuadro nombre-elemento">Escandio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">22</div>
+                            <div class="recuadro simbolo">Ti</div>
+                            <div class="recuadro nombre-elemento">Titanio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">23</div>
+                            <div class="recuadro simbolo">V</div>
+                            <div class="recuadro nombre-elemento">Vanadio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">24</div>
+                            <div class="recuadro simbolo">Cr</div>
+                            <div class="recuadro nombre-elemento">Cromo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">25</div>
+                            <div class="recuadro simbolo">Mn</div>
+                            <div class="recuadro nombre-elemento">Manganeso</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">26</div>
+                            <div class="recuadro simbolo">Fe</div>
+                            <div class="recuadro nombre-elemento">Hierro</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">27</div>
+                            <div class="recuadro simbolo">Co</div>
+                            <div class="recuadro nombre-elemento">Cobaldio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">28</div>
+                            <div class="recuadro simbolo">Ni</div>
+                            <div class="recuadro nombre-elemento">Níquel</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">29</div>
+                            <div class="recuadro simbolo">Cu</div>
+                            <div class="recuadro nombre-elemento">Cobre</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">30</div>
+                            <div class="recuadro simbolo">Zn</div>
+                            <div class="recuadro nombre-elemento">Zinc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">31</div>
+                            <div class="recuadro simbolo">Ga</div>
+                            <div class="recuadro nombre-elemento">Galio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">32</div>
+                            <div class="recuadro simbolo">Ge</div>
+                            <div class="recuadro nombre-elemento">Germanio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">33</div>
+                            <div class="recuadro simbolo">As</div>
+                            <div class="recuadro nombre-elemento">Arsénico</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nometales">
+                            <div class="recuadro numero-atomico">34</div>
+                            <div class="recuadro simbolo">Se</div>
+                            <div class="recuadro nombre-elemento">Selenio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">35</div>
+                            <div class="recuadro simbolo">Br</div>
+                            <div class="recuadro nombre-elemento">Bromo</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">36</div>
+                            <div class="recuadro simbolo">Kr</div>
+                            <div class="recuadro nombre-elemento">Kriptón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- periodo5 -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">37</div>
+                            <div class="recuadro simbolo">Rb</div>
+                            <div class="recuadro nombre-elemento">Rubidio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">38</div>
+                            <div class="recuadro simbolo">Sr</div>
+                            <div class="recuadro nombre-elemento">Estroncio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">39</div>
+                            <div class="recuadro simbolo">Y</div>
+                            <div class="recuadro nombre-elemento">Itrio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">40</div>
+                            <div class="recuadro simbolo">Zr</div>
+                            <div class="recuadro nombre-elemento">Circonio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">41</div>
+                            <div class="recuadro simbolo">Nb</div>
+                            <div class="recuadro nombre-elemento">Niobio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">42</div>
+                            <div class="recuadro simbolo">Mo</div>
+                            <div class="recuadro nombre-elemento">Molibdeno</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">43</div>
+                            <div class="recuadro simbolo">Te</div>
+                            <div class="recuadro nombre-elemento">Tecnecio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">44</div>
+                            <div class="recuadro simbolo">Ru</div>
+                            <div class="recuadro nombre-elemento">Rutenio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">45</div>
+                            <div class="recuadro simbolo">Rh</div>
+                            <div class="recuadro nombre-elemento">Rodio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">46</div>
+                            <div class="recuadro simbolo">Pd</div>
+                            <div class="recuadro nombre-elemento">Pladio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">47</div>
+                            <div class="recuadro simbolo">Ag</div>
+                            <div class="recuadro nombre-elemento">Plata</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">48</div>
+                            <div class="recuadro simbolo">Cd</div>
+                            <div class="recuadro nombre-elemento">Cadmio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">49</div>
+                            <div class="recuadro simbolo">In</div>
+                            <div class="recuadro nombre-elemento">Indio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">50</div>
+                            <div class="recuadro simbolo">Sn</div>
+                            <div class="recuadro nombre-elemento">Estaño</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">51</div>
+                            <div class="recuadro simbolo">Sb</div>
+                            <div class="recuadro nombre-elemento">Antimonio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">52</div>
+                            <div class="recuadro simbolo">Te</div>
+                            <div class="recuadro nombre-elemento">Telurio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">53</div>
+                            <div class="recuadro simbolo">I</div>
+                            <div class="recuadro nombre-elemento">Yodo</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">54</div>
+                            <div class="recuadro simbolo">Xe</div>
+                            <div class="recuadro nombre-elemento">Xenón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- periodo6 -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">55</div>
+                            <div class="recuadro simbolo">Cs</div>
+                            <div class="recuadro nombre-elemento">Cesio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">56</div>
+                            <div class="recuadro simbolo">Ba</div>
+                            <div class="recuadro nombre-elemento">Bario</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">71</div>
+                            <div class="recuadro simbolo">Lu</div>
+                            <div class="recuadro nombre-elemento">Lutecio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">72</div>
+                            <div class="recuadro simbolo">Hf</div>
+                            <div class="recuadro nombre-elemento">Hafnio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">73</div>
+                            <div class="recuadro simbolo">Ta</div>
+                            <div class="recuadro nombre-elemento">Tátalo</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">74</div>
+                            <div class="recuadro simbolo">W</div>
+                            <div class="recuadro nombre-elemento">Wolframio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">75</div>
+                            <div class="recuadro simbolo">Re</div>
+                            <div class="recuadro nombre-elemento">Renio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">76</div>
+                            <div class="recuadro simbolo">Os</div>
+                            <div class="recuadro nombre-elemento">Osmio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">77</div>
+                            <div class="recuadro simbolo">Ir</div>
+                            <div class="recuadro nombre-elemento">Iridio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">78</div>
+                            <div class="recuadro simbolo">Pt</div>
+                            <div class="recuadro nombre-elemento">Platino</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">79</div>
+                            <div class="recuadro simbolo">Au</div>
+                            <div class="recuadro nombre-elemento">Oro</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">80</div>
+                            <div class="recuadro simbolo">Hg</div>
+                            <div class="recuadro nombre-elemento">Mercurio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">81</div>
+                            <div class="recuadro simbolo">Ti</div>
+                            <div class="recuadro nombre-elemento">Talio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">82</div>
+                            <div class="recuadro simbolo">Pb</div>
+                            <div class="recuadro nombre-elemento">Plomo</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">83</div>
+                            <div class="recuadro simbolo">Bi</div>
+                            <div class="recuadro nombre-elemento">Bimuto</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-metaloides">
+                            <div class="recuadro numero-atomico">84</div>
+                            <div class="recuadro simbolo">Po</div>
+                            <div class="recuadro nombre-elemento">Polonio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">85</div>
+                            <div class="recuadro simbolo">At</div>
+                            <div class="recuadro nombre-elemento">Astato</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">86</div>
+                            <div class="recuadro simbolo">Rn</div>
+                            <div class="recuadro nombre-elemento">Radón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- periodo7 -->
+            <div class="periodo col-12 row">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinos">
+                            <div class="recuadro numero-atomico">87</div>
+                            <div class="recuadro simbolo">Fr</div>
+                            <div class="recuadro nombre-elemento">Francio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-alcalinotérreos">
+                            <div class="recuadro numero-atomico">88</div>
+                            <div class="recuadro simbolo">Ra</div>
+                            <div class="recuadro nombre-elemento">Radio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">103</div>
+                            <div class="recuadro simbolo">Lr</div>
+                            <div class="recuadro nombre-elemento">Lawrencio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">104</div>
+                            <div class="recuadro simbolo">Rf</div>
+                            <div class="recuadro nombre-elemento">Rutherfordio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">105</div>
+                            <div class="recuadro simbolo">Db</div>
+                            <div class="recuadro nombre-elemento">Dubnio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">106</div>
+                            <div class="recuadro simbolo">Sg</div>
+                            <div class="recuadro nombre-elemento">Saborgio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">107</div>
+                            <div class="recuadro simbolo">Bh</div>
+                            <div class="recuadro nombre-elemento">Bohrio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">108</div>
+                            <div class="recuadro simbolo">Hs</div>
+                            <div class="recuadro nombre-elemento">Hasio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">109</div>
+                            <div class="recuadro simbolo">Mt</div>
+                            <div class="recuadro nombre-elemento">Meitmerio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">110</div>
+                            <div class="recuadro simbolo">Ds</div>
+                            <div class="recuadro nombre-elemento">Darmstatio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">111</div>
+                            <div class="recuadro simbolo">Rg</div>
+                            <div class="recuadro nombre-elemento">Roentgenio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">112</div>
+                            <div class="recuadro simbolo">Cn</div>
+                            <div class="recuadro nombre-elemento">Copernicio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">113</div>
+                            <div class="recuadro simbolo">Nh</div>
+                            <div class="recuadro nombre-elemento">Nihonio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros ">
+                            <div class="recuadro numero-atomico">114</div>
+                            <div class="recuadro simbolo">Fi</div>
+                            <div class="recuadro nombre-elemento">Flerovio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">115</div>
+                            <div class="recuadro simbolo">Mc</div>
+                            <div class="recuadro nombre-elemento">Moscovio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-otros">
+                            <div class="recuadro numero-atomico">116</div>
+                            <div class="recuadro simbolo">Lv</div>
+                            <div class="recuadro nombre-elemento">Livermorio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-halógenos">
+                            <div class="recuadro numero-atomico">117</div>
+                            <div class="recuadro simbolo">Ts</div>
+                            <div class="recuadro nombre-elemento">Teneso</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-nombles">
+                            <div class="recuadro numero-atomico">118</div>
+                            <div class="recuadro simbolo">Og</div>
+                            <div class="recuadro nombre-elemento">Oganesón</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodo col-12 row "></div><!-- Celda separadora -->
+            <!-- periodo8 lantanidos -->
+            <div class="periodo col-12 row ">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-6"></div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">57</div>
+                            <div class="recuadro simbolo">La</div>
+                            <div class="recuadro nombre-elemento">Lantano</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">58</div>
+                            <div class="recuadro simbolo">Ce</div>
+                            <div class="recuadro nombre-elemento">Cerio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2 color-transicion">
+                        <div class="elemento">
+                            <div class="recuadro numero-atomico">59</div>
+                            <div class="recuadro simbolo">Pr</div>
+                            <div class="recuadro nombre-elemento">Praseodimio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">60</div>
+                            <div class="recuadro simbolo">Nd</div>
+                            <div class="recuadro nombre-elemento">Neudimio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">61</div>
+                            <div class="recuadro simbolo">Pm</div>
+                            <div class="recuadro nombre-elemento">Prometio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">62</div>
+                            <div class="recuadro simbolo">Sm</div>
+                            <div class="recuadro nombre-elemento">Samario</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">63</div>
+                            <div class="recuadro simbolo">Eu</div>
+                            <div class="recuadro nombre-elemento">Europio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">64</div>
+                            <div class="recuadro simbolo">Gd</div>
+                            <div class="recuadro nombre-elemento">Gadolinio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">65</div>
+                            <div class="recuadro simbolo">Tb</div>
+                            <div class="recuadro nombre-elemento">Terbio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">66</div>
+                            <div class="recuadro simbolo">Dy</div>
+                            <div class="recuadro nombre-elemento">Disprocio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">67</div>
+                            <div class="recuadro simbolo">Ho</div>
+                            <div class="recuadro nombre-elemento">Holmio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">68</div>
+                            <div class="recuadro simbolo">Er</div>
+                            <div class="recuadro nombre-elemento">Erbio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">69</div>
+                            <div class="recuadro simbolo">Tm</div>
+                            <div class="recuadro nombre-elemento">Tulio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-transicion">
+                            <div class="recuadro numero-atomico">70</div>
+                            <div class="recuadro simbolo">Yb</div>
+                            <div class="recuadro nombre-elemento">Iterbio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2"></div>
+                </div>
+            </div>
+            <!-- perido9 actinidos -->
+            <div class="periodo col-12 row ">
+                <div class="col-4 row periodo-dividido">
+                    <div class="celda col-6"></div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">89</div>
+                            <div class="recuadro simbolo">Ac</div>
+                            <div class="recuadro nombre-elemento">Th</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">90</div>
+                            <div class="recuadro simbolo">Th</div>
+                            <div class="recuadro nombre-elemento">Torio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">91</div>
+                            <div class="recuadro simbolo">Pa</div>
+                            <div class="recuadro nombre-elemento">Protactinio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte2 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">92</div>
+                            <div class="recuadro simbolo">U</div>
+                            <div class="recuadro nombre-elemento">Uranio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">93</div>
+                            <div class="recuadro simbolo">Np</div>
+                            <div class="recuadro nombre-elemento">Neptunio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">94</div>
+                            <div class="recuadro simbolo">Pu</div>
+                            <div class="recuadro nombre-elemento">Plutonio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">95</div>
+                            <div class="recuadro simbolo">Am</div>
+                            <div class="recuadro nombre-elemento">Americio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">96</div>
+                            <div class="recuadro simbolo">Cm</div>
+                            <div class="recuadro nombre-elemento">Curio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">97</div>
+                            <div class="recuadro simbolo">Bk</div>
+                            <div class="recuadro nombre-elemento">Berkelio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 row periodo-dividido"><!-- parte3 -->
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">98</div>
+                            <div class="recuadro simbolo">Cf</div>
+                            <div class="recuadro nombre-elemento">Californio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">99</div>
+                            <div class="recuadro simbolo">Es</div>
+                            <div class="recuadro nombre-elemento">einstenio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">100</div>
+                            <div class="recuadro simbolo">Fm</div>
+                            <div class="recuadro nombre-elemento">Fermio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">101</div>
+                            <div class="recuadro simbolo">Md</div>
+                            <div class="recuadro nombre-elemento">Medelevio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="elemento color-actínidos">
+                            <div class="recuadro numero-atomico">102</div>
+                            <div class="recuadro simbolo">No</div>
+                            <div class="recuadro nombre-elemento">Nobelio</div>
+                        </div>
+                    </div>
+                    <div class="celda col-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Fin de tabla  -->
+
+    <!-- Modal -->
+<div class="modal fade" id="hidrogeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hidrogeno</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="helio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Helio</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El helio es un elemento químico con el símbolo He y el número atómico 2. 
+            Es un gas noble, incoloro, inodoro, insípido y no tóxico. Es el segundo 
+            elemento más ligero y abundante en el universo, después del hidrógeno. Se encuentra
+            principalmente en el espacio, particularmente en las estrellas, donde se 
+            produce a través de la fusión nuclear.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="litio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Litio</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El litio es un elemento químico con el símbolo Li y el número atómico 3. 
+            Es un metal alcalino, de color blanco plateado, blando y ligero, siendo el 
+            metal más ligero y uno de los elementos sólidos más ligeros. Debido a su alta 
+            reactividad, el litio no se encuentra libre en la naturaleza, sino en compuestos 
+            minerales, principalmente en salmueras y rocas ígneas.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="berilio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Berilio</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="boro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Boro</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="carbono" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Carbono</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="carbono" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Carbono</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="nitrogeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nitrogeno</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="oxigeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Oxigeno</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="fluor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fluor</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal -->
+<div class="modal fade" id="neon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Neon</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. 
+            Con una masa atómica de 1.00784, ​ es el más ligero de la tabla periódica de los elementos. 
+            Por lo general, se presenta en su forma molecular, formando el gas diatómico H₂ en condiciones normales.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hierro</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

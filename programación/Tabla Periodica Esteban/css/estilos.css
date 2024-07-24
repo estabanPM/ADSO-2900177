@@ -1,0 +1,205 @@
+#principal{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+#secundario{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(183, 0, 0);
+    justify-content: center;
+    font-size: 40px;
+
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.celda{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.celda-modal{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 !important;
+    width: 63px;
+}
+.elemento{
+    width: 63px;
+    height: 55px;
+    border: 2px solid rgb(69, 1, 121);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.elemento:hover {
+    transform: scale(1.1); /* Agranda el contenido al pasar el cursor */
+}
+.periodo{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    /* border: 1px solid rgb(92, 0, 0); */
+    margin-bottom: 5px;
+}
+
+.periodo-dividido{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fondo-elemento{
+    background-color: aqua;
+}
+
+.recuadro{
+    width: 60px;
+    height: 18px;
+    /* border: 1px solid black; */
+}
+
+.recuadro-prueba{
+    width: 190px;
+    height: 20px;
+    /* border: 1px solid rgb(207, 5, 5); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cuadro-prueba{
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid black; */
+    margin-right: 5px;
+    background-color: blue;
+}
+/* diseño de contenido de recuadros */
+.numero-atomico{
+    text-align: right;
+    color: rgb(9, 68, 34);
+    font-size: 15px;
+    width: 60px;
+    height: 15px;
+}
+
+.simbolo{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    width: 60px;
+    height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nombre-elemento{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    width: 60px;
+    height: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+/* fin diseño */
+
+.clasificacion{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    width: 190px;
+    height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.numero-periodo{
+    text-align: center;
+    color: rgb(86, 0, 0);
+    font-size: 13px;
+    margin-top: 40px;
+    width: 60px;
+    height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nombre-clasifiacion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* color de espesificacion de colores */
+
+.color-alcalinos{
+    background-color:rgb(52, 179, 217);
+}
+
+.color-alcalinotérreos{
+    background-color:rgb(122, 67, 173);
+}
+
+.color-otros{
+    background-color: rgb(255, 4, 129);
+}
+
+.color-transicion{
+    background-color: chartreuse;
+}
+
+.color-lantanidos{
+    background-color: rgb(199, 166, 0);
+}
+
+.color-actínidos{
+    background-color: rgb(43, 255, 6);
+}
+
+.color-Lantánidos{
+    background-color: rgb(237, 0, 0);
+}
+
+.color-nometales{
+    background-color: darksalmon;
+}
+
+.color-halógenos{
+    background-color: rgb(237, 219, 100);
+}
+
+.color-nombles{
+    background-color: gold;
+}
+.color-metaloides{
+    background-color: rgb(91, 242, 154);
+}
+/* fin de colores especificos*/
