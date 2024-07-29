@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../js/ejercicio1.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="container">
+      <div class="col-12 title">Esta pagina te saluda</div>
+      <div class="col-10 row forma">
+          <div class="col-6 formulario"> 
+              <form class="row g-3 needs-validation" novalidate onsubmit="return saludar()">
+                  <div class="col-md-12">
+                    <label for="txt-saludo" class="form-label"><b>Escribe lo que quieras</b></label>
+                    <input type="text" class="form-control" id="txt-saludo" required>
+                    <div class="valid-feedback">
+                      Valido!
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary color-boton" type="submit">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+                  </div>
+                </form>
+          </div>
+            
+      </div>
+        <div class="col-4 respuesta neon-border">
+          <div id="saludo" class="saludo"></div>
+      </div>
+    </div>
+    
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../JS/validacion.js"></script>
+    <script src="../JS/ejercicio1.js"></script>
+</body>
+</html>

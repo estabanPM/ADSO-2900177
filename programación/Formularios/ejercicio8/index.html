@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas de figuras</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <div class="container">
+      <div class="col-12 title">Esta pagina calcula el area de fuguras geometricas</div>
+        <!-- formulario del cuadrado -->
+        <div class="col-10 row forma">
+          <div class="title-cuadrado">1. Cuadrado</div>
+            <div class="col-6 formulario">
+                <!-- inicio formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return areaCuadrado()">
+                    <div class="col-md-12">
+                      <label for="txt-lado" class="form-label">Digite la medida del lado del cuadrado</label>
+                      <input type="number" class="form-control" id="txt-lado" required>
+                      <div class="valid-feedback">
+                        Valido!
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-success color-boton" type="submit">Calcular <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-4 respuesta neon-border">
+            <div id="cuadrado" class="saludo"></div>
+        </div>
+        <!-- fin cuadrado -->
+         <!-- inicio rectangulo -->
+        <div class="col-10 row forma">
+          <div class="title-rectangulo">2. Rectangulo</div>
+            <div class="col-6 formulario"> 
+                <!-- inicio formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return areaRectangulo()">
+                    <div class="col-md-12">
+                      <label for="txt-base" class="form-label">Digite la base del rectangulo</label>
+                      <input type="number" class="form-control" id="txt-base" required>
+                      <div class="valid-feedback">
+                        Valido!
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="txt-altura" class="form-label">Digite la altura del rectangulo</label>
+                        <input type="number" class="form-control" id="txt-altura" required>
+                        <div class="valid-feedback">
+                          Valido!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-success color-boton" type="submit">Calcular <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-4 respuesta neon-border">
+            <div id="rectangulo" class="saludo"></div>
+        </div>
+        <!-- fin rectangulo -->
+         <!-- inicio triangulo -->
+        <div class="col-10 row forma">
+          <div class="title-triangulo">3. Triangulo</div>
+          <div class="col-6 formulario"> 
+              <!-- inicio formulario -->
+              <form class="row g-3 needs-validation" novalidate onsubmit="return areaTriangulo()">
+                  <div class="col-md-12">
+                    <label for="txt-base" class="form-label">Digite la base del triangulo</label>
+                    <input type="number" class="form-control" id="txt-base" required>
+                    <div class="valid-feedback">
+                      Valido!
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                      <label for="txt-altura" class="form-label">Digite la altura del triangulo</label>
+                      <input type="number" class="form-control" id="txt-altura" required>
+                      <div class="valid-feedback">
+                        Valido!
+                      </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-success color-boton" type="submit">Calcular <i class="fa-solid fa-calculator"></i></button>
+                  </div>
+              </form>
+          </div>
+      </div>
+        <!-- fin formulario-->
+      <div class="col-4 respuesta neon-border">
+          <div id="triangulo" class="saludo"></div>
+      </div>
+        <!-- fin triangulo -->
+    </div>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../JS/validacion.js"></script>
+    <script src="../JS/ejercicio8.js"></script>
+
+</body>
+</html>

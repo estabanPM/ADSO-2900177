@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sueldo persona</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <div class="container">
+      <div class="col-12 title">Calcula el Sueldo de un Trabajador</div>
+        <div class="col-10 row forma">
+            <div class="col-6 formulario"> 
+                <!-- inicio formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return sueldoTotal()">
+                    <div class="col-md-12">
+                      <label for="txt-valorDia" class="form-label">Digite el valor de su día de trabajo</label>
+                      <input type="number" class="form-control" id="txt-valorDia" required>
+                      <div class="valid-feedback">
+                        Valido!
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="txt-diasTrabajados" class="form-label">Digite la cantidad de días que trabajó</label>
+                        <input type="number" class="form-control" id="txt-diasTrabajados" required>
+                        <div class="valid-feedback">
+                          Valido!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-success color-boton" type="submit">Calcular <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                  </form>
+            </div>
+            <!-- fin formulario-->
+        </div>
+        <div class="col-12 respuesta neon-border">
+            <div id="primerSueldo" class="saludo"></div>
+        </div>
+    </div>
+    
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../JS/validacion.js"></script>
+    <script src="../JS/ejercicio9.js"></script>
+
+</body>
+</html>
