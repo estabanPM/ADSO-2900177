@@ -19,7 +19,7 @@ for (interacion1 = 0; interacion1 < 5; interacion1++) {
     bingo.push(interno);
 }
 
-// Botones para seleccionar columnas y las "X"
+// Botones para seleccionar columnas y las X
 printResultado += '<div class="btn-group" role="group" aria-label="Basic example">';
 printResultado += '<button type="button" class="btn btn-primary" id="fila1">Columna 1</button>';
 printResultado += '<button type="button" class="btn btn-primary" id="fila2">Columna 2</button>';
@@ -128,7 +128,7 @@ const restaurarColoresAnteriores = () => {
     });
 };
 
-// Función para resaltar los números específicos
+// Función para resaltar los números de la triple X
 const resaltarNumeros = () => {
     let numbers1 = document.querySelectorAll(".cambioX1");
     colorX(numbers1, "#FFD700"); // Color dorado
@@ -136,14 +136,14 @@ const resaltarNumeros = () => {
     colorX(numbers2, "#FF4500"); // Color naranja
 };
 
-// Asignar eventos a los botones de las columnas y el botón "X"
+// Asignar eventos a los botones de las columnas y el botón X
 const buttons = ['fila1', 'fila2', 'fila3', 'fila4', 'fila5', 'X1', 'X2'];
 buttons.forEach((btn, index) => {
     document.getElementById(btn).addEventListener("click", () => {
         // Restaurar colores anteriores
         restaurarColoresAnteriores();
         
-        // Resaltar la columna seleccionada, activar la "X" o resaltar los números específicos
+        // Resaltar la columna seleccionada, activar la X
         if (btn.startsWith('fila')) {
             columnaSeleccionada = index + 1;
             let cambioColumna = document.querySelectorAll(`.cambio${columnaSeleccionada}`);
