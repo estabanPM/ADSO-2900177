@@ -1,4 +1,7 @@
-
+/**Bingo con HTML.
+ * Autor: Esteban Palomar Murcia
+ * Fecha:  01 de julio del 2024
+ */
 
 let bingo = [];
 let interno = [];
